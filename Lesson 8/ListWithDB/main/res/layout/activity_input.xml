@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InputActivity">
+
+    <EditText
+        android:id="@+id/editProduct"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:hint="Input Product Name here"
+        />
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:hint="Input Price here"
+        />
+    <EditText
+    android:id="@+id/editDiscount"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:textSize="20sp"
+    android:hint="Input Discount here"
+    />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:text="Submit"
+        android:onClick="submit"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

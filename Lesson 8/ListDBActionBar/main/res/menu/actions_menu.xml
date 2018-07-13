@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+    android:title="Add new Product"
+    android:id="@+id/addProduct"
+    android:icon="@android:drawable/ic_menu_add"
+    app:showAsAction="ifRoom"
+    />
+    <item
+        android:title="Delete the first product"
+        android:id="@+id/deleteFirstProduct"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="ifRoom"
+     />
+    <item
+        android:title="About author"
+        android:id="@+id/showAuthor"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="ifRoom"
+    />
+</menu>
