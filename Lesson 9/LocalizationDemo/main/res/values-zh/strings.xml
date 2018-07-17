@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">我的申请</string>
+    <string name="edit_hint">你交什么名字</string>
+    <string name="button_text">点击我!</string>
+    <string name="hello_string">你好,\ </string>
+</resources>
